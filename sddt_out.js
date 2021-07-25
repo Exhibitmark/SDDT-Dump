@@ -1,6 +1,6 @@
 const fs = require('fs');
-const blam = require('../blam-lib.js');
-const sddt = require('../definitions/sddt.js');
+const blam = require('./blam-lib.js');
+const sddt = require('./definitions/sddt.js');
 const struct = require('struct');
 const util = require('util');
 // Convert fs.readFile into Promise version of same    
